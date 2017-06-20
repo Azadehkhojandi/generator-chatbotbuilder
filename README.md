@@ -7,13 +7,13 @@ First, install [Yeoman](http://yeoman.io) and generator-nodechatbot using [npm](
 
 ```bash
 npm install -g yo
-npm install -g generator-nodechatbot
+npm install -g generator-chatbotbuilder
 ```
 
 Then generate your new project:
 
 ```bash
-yo nodechatbot
+yo chatbotbuilder
 ```
 
 ## Getting To Know Yeoman
