@@ -16,6 +16,22 @@ Then generate your new project:
 yo chatbotbuilder
 ```
 
+## How to run the chat bot
+
+- npm start
+
+## Bot Framework Emulator
+
+The Bot Framework Emulator is a desktop application that allows you to test and debug you bots, either locally or remotely.
+Using the emulator, you can chat with your bot and inspect the messages that your bot sends and receives.
+download link  http://emulator.botframework.com
+
+## Getting To Know Bot Framework
+
+- [Bot Framework](https://dev.botframework.com/)
+- [Bot Framework Documentation](https://docs.botframework.com/)
+- [Microsoft Virtual Academy](http://aka.ms/botcourse)
+
 ## Getting To Know Yeoman
 
  * Yeoman has a heart of gold.
