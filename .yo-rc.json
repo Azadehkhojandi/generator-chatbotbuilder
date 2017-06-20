@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Azadeh Khojandi",
+      "authorEmail": "azadehkhojandi@gmail.com",
+      "authorUrl": "http://azadehkhojandi.blogspot.com.au/"
+    }
+  }
+}

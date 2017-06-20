@@ -1,0 +1,52 @@
+{
+  "name": "generator-chatbotbuilder",
+  "version": "0.0.0",
+  "description": "it's a boiler plate for building chat bot with node, type script and microsoft bot builder",
+  "homepage": "https://github.com/Azadehkhojandi",
+  "author": {
+    "name": "Azadeh Khojandi",
+    "email": "azadehkhojandi@gmail.com",
+    "url": "http://azadehkhojandi.blogspot.com.au/"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "generator",
+    "chat bot ",
+    "yeoman-generator"
+  ],
+  "devDependencies": {
+    "yeoman-test": "^1.6.0",
+    "yeoman-assert": "^3.0.0",
+    "coveralls": "^2.12.0",
+    "nsp": "^2.6.3",
+    "eslint": "^3.18.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^19.0.2",
+    "jest-cli": "^20.0.0"
+  },
+  "dependencies": {
+    "yeoman-generator": "^1.0.0",
+    "chalk": "^1.1.3",
+    "yosay": "^2.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "prepublish": "nsp check",
+    "pretest": "eslint . --fix",
+    "test": "jest"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "repository": "azadehkhojandi/generator-chatbotbuilder",
+  "license": "MIT"
+}
