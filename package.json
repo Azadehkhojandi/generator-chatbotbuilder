@@ -1,6 +1,6 @@
 {
   "name": "generator-chatbotbuilder",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "it's a boiler plate for building chat bot with node, type script and microsoft bot builder",
   "homepage": "https://github.com/Azadehkhojandi",
   "author": {
